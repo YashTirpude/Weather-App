@@ -1,0 +1,90 @@
+.collapse {
+  display: flex;
+  justify-content: end;
+}
+
+
+
+body {
+
+  background-image: url(https://wallpapercave.com/wp/wp9356145.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-right: none;
+  overscroll-behavior: none;
+}
+
+.navbar {
+  background-image: inherit;
+
+}
+
+.heading {
+  color: rgb(14, 223, 243);
+}
+
+.cityWeather {
+  color: rgb(9, 255, 239);
+  font-weight: bold;
+}
+
+.otherPlaces {
+  color: rgb(9, 255, 239);
+  font-weight: bold;
+}
+
+
+
+
+
+
+th {
+  background-color: inherit !important;
+  color: aqua !important;
+
+}
+
+td {
+  background-color: inherit !important;
+  color: rgb(8, 255, 239) !important;
+  font-weight: bold;
+  font-size: 14px !important;
+
+}
+
+.small {
+  color: rgb(8, 255, 239) !important;
+  margin-left: 0 !important;
+
+}
+
+.navbar-toggler {
+  background-color: rgba(0, 208, 255, 0.484) !important;
+}
+
+@media screen and (max-width:280px) {
+  .col {
+    margin-left: 4rem;
+
+  }
+
+  .heading {
+    margin-left: 2rem;
+  }
+
+  .navbar-toggler {
+    margin-right: -5rem;
+  }
+
+  .cityWeather {
+    margin-right: -8rem;
+  }
+
+  .otherPlaces {
+    margin-right: -8rem !important;
+  }
+
+
+
+}
