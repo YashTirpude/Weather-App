@@ -5,7 +5,7 @@ const cityName = document.getElementById("cityName")
 const options = {
   method: "GET",
   headers: {
-    // "X-RapidAPI-Key":'323348cb93msh55d47207dde1c1ep156690jsn3bedfd33d665',
+    "X-RapidAPI-Key":'323348cb93msh55d47207dde1c1ep156690jsn3bedfd33d665',
     "X-RapidAPI-Host": "weather-by-api-ninjas.p.rapidapi.com"
 
 
