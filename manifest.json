@@ -1,7 +1,7 @@
 {
   "name":"Weather app",
   "short_name":"weather",
-  "id":"/index.html",
+  "id":"/weather.html",
   "start_url": "index.html",
   "protocol":"http",
   "background_color":"rgb(10, 230, 255)",
